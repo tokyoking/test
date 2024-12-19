@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit E-ticaret Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Basit E-ticaret Sitesi</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="products.html">Ürünler</a>
+            <a href="cart.html">Sepet</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-list">
+            <h2>Öne Çıkan Ürünler</h2>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Ürün 1">
+                <h3>Ürün 1</h3>
+                <p>Fiyat: 100₺</p>
+                <button onclick="addToCart('Ürün 1', 100)">Sepete Ekle</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Ürün 2">
+                <h3>Ürün 2</h3>
+                <p>Fiyat: 150₺</p>
+                <button onclick="addToCart('Ürün 2', 150)">Sepete Ekle</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Basit E-ticaret Sitesi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
