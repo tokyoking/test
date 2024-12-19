@@ -1,104 +1,108 @@
-/* Genel Stiller */
+/* Genel stil ayarları */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #007acc;
+    background-color: #333;
     color: white;
-    padding: 15px 10px;
+    padding: 10px;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
-nav {
-    margin: 10px 0;
-}
-
 nav a {
-    margin: 0 10px;
+    margin: 0 15px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Ana içerik */
-main {
-    padding: 20px;
-}
-
-main h2 {
-    color: #007acc;
-    border-bottom: 2px solid #007acc;
-    display: inline-block;
-    margin-bottom: 15px;
-}
-
-/* Form Stilleri */
-form {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="number"],
-button {
-    padding: 10px;
-    font-size: 1em;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 300px;
-}
-
-button {
-    background-color: #007acc;
-    color: white;
-    border: none;
-    cursor: pointer;
-    max-width: 150px;
-}
-
-button:hover {
-    background-color: #005f99;
-}
-
-/* Liste Stilleri */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background-color: #eef;
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #ddd;
-    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Blog yazıları */
+.blog-posts {
+    margin: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post a {
+    color: #333;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Kategoriler */
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.categories ul li a:hover {
+    text-decoration: underline;
+}
+
+/* İletişim formu */
+.contact form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
 }
